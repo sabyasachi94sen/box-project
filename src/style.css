@@ -1,0 +1,51 @@
+.parent{
+
+    width:80%;
+    height:50vh;
+    border-radius: 15px;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px 6px lightgray;
+    border: 1px solid black;
+    
+    margin: auto;
+    margin-top: 20px;
+}
+.child1{
+    width:35%;
+    height:50vh;
+
+    
+}
+
+.child2{
+    width:50%;
+    height:50vh;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    /* background-color: green; */
+}
+
+.division{
+    width:120px;
+    height:5px;
+    background-color: orange;
+}
+.pic{
+    width:100%;
+    height:50vh;
+    position: absolute;
+    bottom:-5px;
+}
+.title{
+    font-size: 2rem;
+}
+
+.content{
+    color:orange;
+    margin-top: 50px;
+}
